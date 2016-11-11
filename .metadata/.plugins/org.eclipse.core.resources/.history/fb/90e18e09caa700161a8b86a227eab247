@@ -1,0 +1,28 @@
+package org.structuredlearning.datastructures.graphs;
+
+import java.util.Comparator;
+
+public class Heap<E> {
+
+	public Heap(Comparator<E> comparator) {
+		
+	}
+	
+	/**
+	 * Adds element to the heap
+	 * @param element
+	 * @return true if add is successful, false otherwise
+	 */
+	public boolean add(E element) {
+		return false;
+	}
+	
+	/**
+	 * Returns true if the heap contains the value
+	 * @param o
+	 * @return
+	 */
+	public boolean contains(Object o) {
+		return false;
+	}
+}

@@ -1,0 +1,29 @@
+package org.structuredlearning.datastructures.graphs;
+
+/**
+ * This class represents a binary search tree
+ * @author damiennagle
+ *
+ */
+public class BinarySearchTree<E extends Comparable<E>> {
+	public BinarySearchTree() {
+		
+	}
+	
+	public boolean add(E element) {
+		return false;
+	}
+	
+	public boolean contains(E element) {
+		return false;
+	}
+	
+	public boolean remove(E element) {
+		return false;
+	}
+	
+	public int size() {
+		return 0;
+	}
+	
+}
