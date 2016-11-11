@@ -9,6 +9,8 @@ author:
   name:       Damien Nagle
   url:        http://yourhomepage.com
 
+url:          https://github.com/garbageman/StructuredLearning
+
 # Gems
 gems:
   - jekyll-paginate
