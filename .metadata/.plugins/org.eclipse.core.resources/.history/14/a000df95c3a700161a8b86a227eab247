@@ -2,8 +2,6 @@ package org.structuredlearning.datastructures.lists;
 
 import static org.junit.Assert.*;
 
-import java.util.List;
-
 import org.junit.Test;
 import org.structuredlearning.datastructures.linear.SinglyLinkedList;
 

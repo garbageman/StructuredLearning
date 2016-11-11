@@ -1,0 +1,32 @@
+package org.structuredlearning.datastructures.linear;
+
+/**
+ * This is the interface for a standard map
+ * @author damiennagle
+ *
+ * @param <K>
+ * @param <E>
+ */
+public interface Map<K,V> {
+	
+	/**
+	 * Returns the value stored at that key value
+	 * @param key
+	 * @return
+	 */
+	public V get(K key);
+	
+	/**
+	 * Adds the 
+	 * @param key
+	 * @param value
+	 * @return
+	 */
+	public boolean put(K key, V value);
+	
+	/**
+	 * Returns the size of the map
+	 * @return
+	 */
+	public int size();
+}
