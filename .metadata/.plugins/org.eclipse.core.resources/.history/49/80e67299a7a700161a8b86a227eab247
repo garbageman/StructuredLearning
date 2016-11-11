@@ -1,0 +1,5 @@
+package org.structuredlearning.datastructures.lists;
+
+public class SinglyLinkedListTest {
+
+}
