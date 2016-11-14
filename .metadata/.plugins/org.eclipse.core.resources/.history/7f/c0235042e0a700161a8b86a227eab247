@@ -14,11 +14,6 @@ public class UWGraph<E> {
 		
 	}
 	
-	/**
-	 * Adds an element to the graph
-	 * @param element
-	 * @return
-	 */
 	public boolean addVertex(E element) {
 		return false;
 	}
@@ -59,10 +54,6 @@ public class UWGraph<E> {
 		return false;
 	}
 	
-	/**
-	 * Returns number of vertices in the graph
-	 * @return 
-	 */
 	public int size() {
 		return 0;
 	}
@@ -73,11 +64,7 @@ public class UWGraph<E> {
 	 * @return
 	 */
 	public Set<E> reachable(E e) {
-		return null;
+		
 	}
-	
-	/**
-	 * 
-	 */
 
 }

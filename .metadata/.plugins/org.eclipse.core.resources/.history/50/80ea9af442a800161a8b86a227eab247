@@ -2,23 +2,12 @@ package org.structuredlearning.datastructures.graphs;
 
 import java.util.Set;
 
-/**
- * This class represents a weighted graph.
- * @author damiennagle
- *
- * @param <E>
- */
 public class WGraph<E> {
 	
 	public WGraph() {
 		
 	}
 	
-	/**
-	 * Adds an element to the graph
-	 * @param element
-	 * @return
-	 */
 	public boolean addVertex(E element) {
 		return false;
 	}
