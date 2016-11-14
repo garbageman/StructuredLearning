@@ -417,3 +417,8 @@ org.eclipse.recommenders.utils.Logs$LogTraceException
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-11-14 12:56:42.225
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
