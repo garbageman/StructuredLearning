@@ -5,7 +5,7 @@ date:   2016-11-14 00:00:00
 categories: main
 ---
 
-##Singly Linked Lists
+## Singly Linked Lists
 
 ### Discussion
 Lists are linear data structures that can come in multiple forms. Lists by themselves can be used to store data, but they are also very useful as the underlying data structure of other data structures with unique properties.
