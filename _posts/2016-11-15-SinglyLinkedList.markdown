@@ -17,3 +17,7 @@ When are linked lists advantageous over arrays? When you are only interested in 
 
 In the project, you are asked to implement your own Singly Linked list. A good way to approach this class is by creating a private Node class within the SinglyLinkedList class. Since this Node class will only be used by the SinglyLinkedList, it's good practice to keep it encapsulated within the SinglyLinkedList class. Once you have this Node class, then you only need a reference to the head of the list to represent the entire list.
 Apart from creating the Node class, you must implement each method of the SinglyLinkedList class. The documentation is outlined in the comments of the methods.
+
+### Class Location
+
+The class can be found in the org.structuredlearning.datastructures.linear package
