@@ -17,7 +17,6 @@ When are linked lists advantageous over arrays? When you are only interested in 
 In the project, you are asked to implement your own Singly Linked list. A good way to approach this class is by creating a private Node class within the SinglyLinkedList class. Since this Node class will only be used by the SinglyLinkedList, it's good practice to keep it encapsulated within the SinglyLinkedList class. Once you have this Node class, then you only need a reference to the head of the list to represent the entire list.
 Apart from creating the Node class, you must implement each method of the SinglyLinkedList class. The documentation is outlined in the comments of the methods.
 
-<<<<<<< HEAD
 ## Project Spec
 ### Underlying data structure of a linked list
 So what is a linked list comprised of? Most, if not all, data structures are simply compositions of other more simple data structures. A SinglyLinkedList is no exception. So what is a good way to implement a SinglyLinkedList? Lists generally are made up of nodes. A node is a structure that has two properties, the value that it holds, and a reference to the next node in the list. This way, we can represent a list merely as a reference to the head of the list, because each node has a reference to the next node in the list. Since we do not plan on using this node structure outside of this class, it is a good practice to create a private node class within SinglyLinkedList to use as the underlying data structure.
@@ -29,9 +28,6 @@ This method will add the parameter element to the front of the list. This means 
 
 ### remove(E element)
 This method will remove the element if it can be found inside of the singly linked list.
-=======
-### Class Location
->>>>>>> parent of e9ac400... Fixed up blog posts (hopefully)
 
 ## Class Location
 The class can be found in the org.structuredlearning.datastructures.linear package
