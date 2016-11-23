@@ -5,7 +5,7 @@ date:   2016-11-14 00:00:00
 categories: main
 ---
 
-# Singly Linked Lists
+## Singly Linked Lists
 
 ## Discussion
 Lists are linear data structures that can come in multiple forms. Lists by themselves can be used to store data, but they are also very useful as the underlying data structure of other data structures with unique properties.
@@ -25,6 +25,9 @@ What exactly does this node class look like? Well it's entirely up to you but at
 
 ### add(E element)
 This method will add the parameter element to the front of the list. This means that there should be a new head of the list when the method is finished, and it should be the element that was just added to the list.
+
+### remove(E element)
+
 
 ## Class Location
 The class can be found in the org.structuredlearning.datastructures.linear package
