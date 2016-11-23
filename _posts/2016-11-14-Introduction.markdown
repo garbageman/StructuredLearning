@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Introduction"
+title:  "Getting Started"
 date:   2016-11-14 00:00:00
 categories: main
 ---
