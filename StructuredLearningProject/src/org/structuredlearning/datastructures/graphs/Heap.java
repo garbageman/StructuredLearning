@@ -1,7 +1,6 @@
 package org.structuredlearning.datastructures.graphs;
 
 import java.util.Comparator;
-import java.util.Set;
 
 public class Heap<E> {
 
