@@ -73,16 +73,4 @@ public interface List<E> {
 	 * @return
 	 */
 	public E getLast();
-	
-	/**
-	 * Removes and returns the first element of the list
-	 * @return
-	 */
-	public E removeFirst();
-	
-	/**
-	 * Removes and returns the last element of the list
-	 * @return
-	 */
-	public E removeLast();
 }

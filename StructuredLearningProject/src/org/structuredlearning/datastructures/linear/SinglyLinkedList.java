@@ -69,18 +69,6 @@ public class SinglyLinkedList<E> implements List<E>{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	@Override
-	public E removeFirst() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public E removeLast() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
 	
 }

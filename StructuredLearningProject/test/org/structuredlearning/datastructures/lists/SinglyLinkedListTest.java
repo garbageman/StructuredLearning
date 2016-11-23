@@ -6,12 +6,6 @@ import org.junit.Test;
 import org.structuredlearning.datastructures.linear.SinglyLinkedList;
 import org.structuredlearning.datastructures.linear.List;
 
-/**
- * This is a sample JUnit test that has been written for the SinglyLinkedList class.
- * The rest of the tests for all data structures (including this one) should be written by you.
- * @author damiennagle
- *
- */
 public class SinglyLinkedListTest {
 	
 	@Test
