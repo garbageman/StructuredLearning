@@ -2,3 +2,5 @@ _site
 .sass-cache
 .recommenders
 .metadata
+dist
+.DS_Store
