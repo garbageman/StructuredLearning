@@ -13,4 +13,7 @@ rm -r dist/StructuredLearningProject/.settings
 rm -r dist/StructuredLearningProject/bin
 rm dist/StructuredLearningProject/.gitignore
 
-zip -r -X StructuredLearning.zip dist/StructuredLearningProject
+cd dist
+zip -r -X StructuredLearning.zip StructuredLearningProject/
+cd ..
+cp dist/StructuredLearning.zip .

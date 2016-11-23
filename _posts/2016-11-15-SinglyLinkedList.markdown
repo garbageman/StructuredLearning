@@ -18,6 +18,7 @@ In the project, you are asked to implement your own Singly Linked list. A good w
 Apart from creating the Node class, you must implement each method of the SinglyLinkedList class. The documentation is outlined in the comments of the methods.
 
 ## Project Spec
+
 ### Underlying data structure of a linked list
 So what is a linked list comprised of? Most, if not all, data structures are simply compositions of other more simple data structures. A SinglyLinkedList is no exception. So what is a good way to implement a SinglyLinkedList? Lists generally are made up of nodes. A node is a structure that has two properties, the value that it holds, and a reference to the next node in the list. This way, we can represent a list merely as a reference to the head of the list, because each node has a reference to the next node in the list. Since we do not plan on using this node structure outside of this class, it is a good practice to create a private node class within SinglyLinkedList to use as the underlying data structure.
 
