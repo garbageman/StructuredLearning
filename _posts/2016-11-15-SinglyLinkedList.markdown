@@ -27,7 +27,7 @@ What exactly does this node class look like? Well it's entirely up to you but at
 This method will add the parameter element to the front of the list. This means that there should be a new head of the list when the method is finished, and it should be the element that was just added to the list.
 
 ### remove(E element)
-
+This method will remove the element if it can be found inside of the singly linked list.
 
 ## Class Location
 The class can be found in the org.structuredlearning.datastructures.linear package
