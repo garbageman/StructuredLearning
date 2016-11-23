@@ -1,5 +1,0 @@
-package org.structuredlearning.datastructures;
-
-public class SinglyLinkedList<E> implements List<E>{
-
-}

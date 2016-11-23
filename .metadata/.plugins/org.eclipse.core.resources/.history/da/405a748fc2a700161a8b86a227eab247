@@ -1,7 +1,0 @@
-package org.structuredlearning.datastructures.linear;
-
-import java.util.Map;
-
-public class HashMap implements Map<K, V> {
-
-}

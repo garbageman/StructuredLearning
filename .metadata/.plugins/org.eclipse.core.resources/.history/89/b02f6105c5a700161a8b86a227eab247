@@ -1,7 +1,0 @@
-package org.structuredlearning.datastructures.linear;
-
-import java.util.Queue;
-
-public class Queue<E> implements Queue<E> {
-
-}
