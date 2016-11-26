@@ -1,8 +1,6 @@
 package org.structuredlearning.datastructures.linear;
 
 import java.util.Collection;
-import java.util.Map;
-import java.util.Set;
 
 public class HashMap<K, V> implements Map<K, V> {
 
@@ -49,12 +47,6 @@ public class HashMap<K, V> implements Map<K, V> {
 	}
 
 	@Override
-	public void putAll(Map<? extends K, ? extends V> m) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void clear() {
 		// TODO Auto-generated method stub
 		
@@ -68,12 +60,6 @@ public class HashMap<K, V> implements Map<K, V> {
 
 	@Override
 	public Collection<V> values() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Set<java.util.Map.Entry<K, V>> entrySet() {
 		// TODO Auto-generated method stub
 		return null;
 	}

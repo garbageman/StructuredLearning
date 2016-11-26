@@ -1,12 +1,14 @@
 package org.structuredlearning.datastructures.linear;
 
+import java.util.Iterator;
+
 /**
  * This class is a generic stack
  * @author damiennagle
  *
  * @param <E>
  */
-public class Stack<E> {
+public class Stack<E> implements Iterable<E> {
 	
 	public Stack() {
 		
@@ -53,6 +55,12 @@ public class Stack<E> {
 	 */
 	public int size() {
 		return 0;
+	}
+
+	@Override
+	public Iterator<E> iterator() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -8,7 +8,7 @@ import java.util.Iterator;
  *
  * @param <E>
  */
-public class SinglyLinkedList<E> implements List<E>{
+public class SinglyLinkedList<E> implements List<E>, Iterable<E> {
 
 	@Override
 	public boolean add(E element) {

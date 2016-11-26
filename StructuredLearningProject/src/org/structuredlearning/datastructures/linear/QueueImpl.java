@@ -2,7 +2,7 @@ package org.structuredlearning.datastructures.linear;
 
 import java.util.Iterator;
 
-public class QueueImpl<E> implements Queue<E> {
+public class QueueImpl<E> implements Queue<E>, Iterable<E> {
 	
 	public QueueImpl() {
 		
