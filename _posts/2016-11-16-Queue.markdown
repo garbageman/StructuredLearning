@@ -1,0 +1,14 @@
+---
+layout: default
+title:  "Queues"
+date:   2016-11-16 00:00:00
+categories: main
+---
+# Queues
+
+## Discussion
+Queues are useful datastructures for keeping track of elements in order to process them
+in a first in, first out fashion. Queues operate the same way a line at a bank would, if you
+are the first person to enter the line, then you are the first person to get serviced. When elements
+are added to the Queue, they are added at one end, and when elements are removed, they are removed
+from the other end.
