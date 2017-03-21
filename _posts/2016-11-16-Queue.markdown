@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Queues and Stacks"
+title:  "Queues"
 date:   2016-11-16 00:00:00
-categories: main
+categories: main, StructuredLearning
 ---
 # Queues
 
@@ -12,13 +12,8 @@ in a first in, first out fashion. Queues operate the same way a line at a bank w
 are the first person to enter the line, then you are the first person to get serviced. When elements
 are added to the Queue, they are added at one end, and when elements are removed, they are removed
 from the other end.
-Stacks are similar to queues in that they are also linear datastructures and the way users interact with them is the same. The difference is that the most recently added element to a stack is the one that gets removed first. This is a first in, last out ordering.
+
+What are ways that a queue can be implemented? One of the problems I see the most with people learning
+Computer Science is that they struggle to take problems they have already solved
 
 ## Project
-As we begin to think about how we would want to implement a queue let's briefly discuss one of the more
-powerful programming paradigms, encapsulation. Encapsulation, or information hiding, is just the practice of keeping instance variables and methods hidden from a user of a class. Encapsulation was practiced in the SinglyLinkedList class when a private Node class was created in order to hold the data. The users of the SinglyLinkedList have no access to the nodes themselves, only the data contained in them through the user's calling of methods. This ensures that not only the user is prevented from making malicious changes to your structure, but there is a simpler interface for the user.
-
-What data structures have been created so far that we can possibly encapsulate inside our Queue (or possibly wrap our Queue around)? Additionally, all of these questions should be asked when implementing the stack. Both structures have identical methods, the only difference is the way elements enter and leave the structures. Think hard about how to approach each behavior. When you're finished with these structures you can move on to the  [Set](https://garbageman.github.io/StructuredLearning/main/2016/11/17/Set.html)
-
-## Class Location
-The classes can be found in the org.structuredlearning.datastructures.linear package

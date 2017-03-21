@@ -2,7 +2,7 @@
 layout: default
 title:  "Singly Linked Lists"
 date:   2016-11-15 00:00:00
-categories: main
+categories: main, StructuredLearning
 ---
 # Singly Linked Lists
 

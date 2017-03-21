@@ -2,7 +2,7 @@
 layout: default
 title:  "Sets"
 date:   2016-11-17 00:00:00
-categories: main
+categories: main, StructuredLearning
 ---
 # Sets
 
