@@ -5,13 +5,19 @@ title: {{ site.name }}
 
 <div id="home">
   <h1> Introduction to Programming </h1>
-    {% for post in {{ site.posts | where_exp:"item", "item.categories contains 'programming'" }} reversed %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  <ul class="posts">
+    {% for post in site.posts reversed %}
+      {% if post.categories contains "programming" %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
+  </ul>
   <h1>Data Structures</h1>
   <ul class="posts">
-    {% for post in {{ site.posts | where_exp:"item", "item.categories contains 'StructuredLearning'" }} reversed %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% for post in site.posts reversed %}
+      {% if post.categories contains "StructuredLearning" %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
