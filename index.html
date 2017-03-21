@@ -7,7 +7,8 @@ title: {{ site.name }}
   <h1> Introduction to Programming </h1>
   <ul class="posts">
     {% for post in site.posts reversed %}
-      {% if post.categories contains "programming" %}
+      <li>{{ post.categories }}</li>
+      {% if post.categories contains "Programming" %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
